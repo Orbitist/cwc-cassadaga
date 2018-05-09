@@ -30,7 +30,7 @@ map.on('load', function () {
               {
                 "type": "Feature",
                 "properties": {
-                    "content": "",
+                    "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/mud_lake.html'></iframe>",
                     "icon": "theatre"
                 },
                 "geometry": {
