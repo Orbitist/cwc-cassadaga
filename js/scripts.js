@@ -1,12 +1,21 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2hxd2MiLCJhIjoiY2pkamJ1aXdyMWlrNjJ3bjlibzZhbjQ0aCJ9.2TTcJmqyGXtbzjQEl3OWwg';
 
+var bounds = [
+    [-79.758283, 42.000271], // Southwest coordinates
+    [-78.803060, 42.664566]  // Northeast coordinates
+];
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/chqwc/cjgyj4bui000c2ss9bjo6ve7z',
     center: [-79.3163256, 42.3565894],
     zoom: 16,
-    minZoom: 10
+    minZoom: 10,
+    maxBounds: bounds
 });
+
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
 
 map.on('load', function () {
 
@@ -31,8 +40,19 @@ map.on('load', function () {
               "type": "Point",
               "coordinates": [-79.316538, 42.354815]
           }
-        }]
-      };
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/center_park.html' style='border:0;'></iframe>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.317029, 42.357098]
+          }
+        }
+      ]
+    };
 
 
 
