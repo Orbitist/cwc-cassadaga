@@ -11,7 +11,7 @@ var map = new mapboxgl.Map({
 map.on('load', function () {
 
   map.addLayer({
-    "id": "Illustration",
+    "id": "Toggle Illustration",
     "type": "raster",
     "source": {
       type: 'raster',
@@ -55,7 +55,7 @@ map.on('load', function () {
 
 
 // Contol the menu
-var toggleableLayerIds = [ 'Illustration' ];
+var toggleableLayerIds = [ 'Toggle Illustration' ];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
