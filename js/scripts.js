@@ -49,7 +49,16 @@ map.on('load', function () {
           "geometry": {
               "type": "Point",
               "coordinates": [-79.317029, 42.357098]
-          }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+                "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/walden.html' style='border:0;'></iframe>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-79.318294, 42.357827]
+            }
         }
       ]
     };
