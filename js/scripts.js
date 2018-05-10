@@ -58,7 +58,37 @@ map.on('load', function () {
           },
           "geometry": {
               "type": "Point",
-              "coordinates": [-79.318294, 42.357827]
+              "coordinates": [-79.318072, 42.357875]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/wetlands.html' style='border:0;'></iframe>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.318211, 42.356066]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/walden_ground.html' style='border:0;'></iframe>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.318708, 42.357443]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+              "content": "<iframe allowfullscreen='true' scrolling='no' src='panoramas/camp_gross.html' style='border:0;'></iframe>"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-79.316654, 42.358845]
           }
         }
       ]
