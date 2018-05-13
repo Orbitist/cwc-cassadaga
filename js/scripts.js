@@ -144,3 +144,14 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 }
+
+// fitvids, default modal
+$(document).ready(function(){
+  $('.videoIntro').modal('show');
+  $(".modal-body").fitVids();
+});
+
+// stop youtube videos when modals closed
+$('.videoIntro').on('hidden.bs.modal', function () {
+    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+});
