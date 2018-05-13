@@ -68,3 +68,28 @@ body { margin:0; padding:0; }
 .mapboxgl-popup-close-button:hover {
   background-color: #eee;
 }
+
+#videos {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#videos a {
+  font-size: 18px;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  border-radius: 3px;
+  text-align: center;
+  background-color: #3887be;
+  color: #ffffff;
+}
+
+#videos a:hover {
+  background: #3074a4;
+}
