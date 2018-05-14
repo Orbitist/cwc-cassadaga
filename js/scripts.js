@@ -155,3 +155,15 @@ $(document).ready(function(){
 $('.videoIntro').on('hidden.bs.modal', function () {
     $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
 });
+$('.videoEconomic').on('hidden.bs.modal', function () {
+    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+});
+$('.videoSocial').on('hidden.bs.modal', function () {
+    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+});
+$('.videoEnvironmental').on('hidden.bs.modal', function () {
+    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+});
+$('.videoGiving').on('hidden.bs.modal', function () {
+    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+});
