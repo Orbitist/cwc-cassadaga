@@ -156,14 +156,14 @@ $('.videoIntro').on('hidden.bs.modal', function () {
     $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
 });
 $('.videoEconomic').on('hidden.bs.modal', function () {
-    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+    $(".videoEconomic iframe").attr("src", $(".videoEconomic iframe").attr("src"));
 });
 $('.videoSocial').on('hidden.bs.modal', function () {
-    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+    $(".videoSocial iframe").attr("src", $(".videoSocial iframe").attr("src"));
 });
 $('.videoEnvironmental').on('hidden.bs.modal', function () {
-    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+    $(".videoEnvironmental iframe").attr("src", $(".videoEnvironmental iframe").attr("src"));
 });
 $('.videoGiving').on('hidden.bs.modal', function () {
-    $(".videoIntro iframe").attr("src", $(".videoIntro iframe").attr("src"));
+    $(".videoGiving iframe").attr("src", $(".videoGiving iframe").attr("src"));
 });
