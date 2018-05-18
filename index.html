@@ -24,13 +24,30 @@
     <nav id="menu"></nav>
     <div id='map'></div>
 
-    <div id='videos'>
+    <div class='videos d-none d-md-block'>
       <a href="#" data-toggle="modal" data-target=".videoIntro"><i class="fas fa-play-circle"></i> Introduction</a>
       <a href="#" data-toggle="modal" data-target=".videoEconomic"><i class="fas fa-play-circle"></i> Economic</a>
       <a href="#" data-toggle="modal" data-target=".videoSocial"><i class="fas fa-play-circle"></i> Social</a>
       <a href="#" data-toggle="modal" data-target=".videoEnvironmental"><i class="fas fa-play-circle"></i> Environmental</a>
       <a href="#" data-toggle="modal" data-target=".videoGiving"><i class="fas fa-play-circle"></i> Legacy</a>
       <a href="https://www.chautauquawatershed.org/index.php/how-to-help/donate" target="_blank" style="position:fixed;right:10px;bottom:30px;"><i class="fas fa-gift"></i> SUPPORT THIS PARK</a>
+    </div>
+
+    <div class='videos d-md-none'>
+      <!-- Default dropup button -->
+      <div class="btn-group dropup style="padding:0px;background-color:rgba(0,0,0,0);"">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </button>
+        <div class="dropdown-menu" style="padding:0px;background-color:rgba(0,0,0,0);">
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target=".videoIntro"><i class="fas fa-play-circle"></i> Introduction</a>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target=".videoEconomic"><i class="fas fa-play-circle"></i> Economic</a>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target=".videoSocial"><i class="fas fa-play-circle"></i> Social</a>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target=".videoEnvironmental"><i class="fas fa-play-circle"></i> Environmental</a>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target=".videoGiving"><i class="fas fa-play-circle"></i> Legacy</a>
+          <a class="dropdown-item" href="https://www.chautauquawatershed.org/index.php/how-to-help/donate" target="_blank"><i class="fas fa-gift"></i> SUPPORT THIS PARK</a>
+        </div>
+      </div>
     </div>
 
     <!-- Intro Modal -->
